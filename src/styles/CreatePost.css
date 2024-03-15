@@ -1,0 +1,107 @@
+.createpost-div{
+    border: .3px solid rgb(214, 214, 214);
+    width: 550px;
+    box-shadow: rgba(127, 129, 131, 0.2) 0px 6px 14px;
+    border-radius: 10px;
+}
+
+.createpost-subdiv{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 15px;
+}
+
+.createpost-logo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(215, 214, 214);
+    margin-left:46px;
+}
+
+.createpost-btn{
+    width: 410px;
+    height:40px;
+    /* border-color: rgb(236, 235, 235); */
+    background-color: rgb(237, 236, 236);
+    color: rgb(97, 96, 96);
+    border-radius: 35px;
+    border-bottom: none;
+    border: 1px solid rgb(235, 233, 233);
+    font-size: 17px;
+    cursor:text;
+}
+.line{
+    border-top: 1.3px solid rgba(114, 116, 118, 0.2);
+    width:500px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.createpost-container{
+    display: grid;
+    width:inherit;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.createpost-items{
+    /* border: 1px solid black; */
+    margin: 5px 1px;
+    height:38px;
+    width:160px;
+    color: rgb(73, 73, 73);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    display: flex;
+}
+.hovr1:hover{
+    background-color: rgb(238, 235, 235);
+  }
+
+.createpost-span{
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 767px){
+    .createpost-div{  
+        width: 350px;
+    }
+    .createpost-btn{
+        width: 250px;
+        height:40px;
+        font-size: 17px;
+    }
+    .createpost-logo{
+        margin-left:15px;
+    }
+    .createpost-subdiv{
+        grid-template-columns: 20% 80%;
+    }
+
+    .line{
+        width:300px;
+        margin-left: 10px;
+    }
+
+    .createpost-container{
+        width:300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 10px;
+        padding-left: 2px;
+    }
+    /* .createpost-items div:nth-child(2){
+        display: none;
+    } */
+    .createpost-span{
+       font-size: 10px;
+    }
+    .createpost-items{
+       
+        height:38px;
+        width:55px;
+    }
+}

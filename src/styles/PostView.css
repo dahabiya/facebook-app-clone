@@ -1,0 +1,253 @@
+.postview-container{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    border-radius: 10px;
+    height:568px;
+    width: 1210px;
+}
+.main-container{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 10.5fr .5fr .5fr .5fr;
+}
+.postview-img{
+    padding-left: 50px;
+    width: 550px;
+    height:598px;
+}
+.postview-link{
+    color:white;
+}
+.side-container{
+    padding-left: 10px;
+}
+.sidenav-logo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(215, 214, 214);
+}
+.sidenav-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr ;
+    margin-top: 10px;
+}
+.profileview-line{
+    border-top: 1.4px solid rgba(114, 116, 118, 0.2);
+    width:350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.postview-container-profile{
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+ }
+ .postview-profile-img{
+     width:40px;
+     height:40px;
+     border-radius: 50%;
+     
+ }
+ .postview-profile-author{
+     font-size: 15px;
+     font-weight: 480;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .postview-profile-time{
+     font-size: 13px;
+     color: grey;
+ }
+.postview-authr-icn{
+    width:36px;
+     height:36px;
+     border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(215, 214, 214);
+}
+
+/* .pv-reactions-container{
+    margin:14px 8px;
+} */
+.pv-reactions{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.pv-reactions-btn{
+    border: none;
+    display: flex;
+    /* border: 1px solid black; */
+    /* width:110px; */
+    height:34px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    background-color: inherit;
+    padding-top: 3px;
+    color:rgb(90, 86, 86) ;
+}
+.pv-reactions-btn:hover {
+  background-color: rgb(233, 233, 233);
+}
+/* .reactions-icon{
+    border: 1px solid black;
+} */
+.pv-reactions-text{
+    margin-top: 5px;
+    /* border: 1px solid black;  */
+    margin-left: 3px; 
+    font-size: 15px;
+    color:rgb(90, 86, 86) ;
+    font-weight: 551;
+}
+
+.pv-comments-container{
+    /* background-color:beige; */
+   width:320px;
+    margin-left: 10px;
+    overflow: auto;
+    height:200px;
+}
+.pv-users-cmmnts-container{
+    display:flex;
+  
+}
+.pv-users-cmmnts-profile{
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(207, 205, 205);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.pv-users-cmmnts{
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(225, 223, 223);
+    font-size: 14px;
+}
+.pv-comments-container2{
+    /* background-color:beige; */
+     width:320px;
+    margin-left: 10px;
+}
+.pv-login-user-cmmnts-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.pv-login-user-profile{
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(207, 205, 205);
+    /* margin-top: 10px; */
+    margin-left: 5px;
+    
+}
+.pv-login-user-create-cmmnt{
+    background-color: rgb(231, 229, 229);
+    padding-top: 2px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.pv-login-user-create-cmmnt-inpt{
+    height: 26px;
+    width:200px;
+    background-color:  rgb(231, 229, 229);
+    border: none;
+    padding-left: 5px;
+    margin-left: 5px;  
+}
+.pv-login-user-create-cmmnt-btn{
+    border: none;
+    background-color:  rgb(231, 229, 229);
+    margin-left: 10px;
+}
+
+.profileview-line2{
+    border-top: 1.4px solid grey;
+    width:350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.profileview-line3{
+    border-top: 1.4px solid grey;
+    width:350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 767px){
+    .postview-container{
+        grid-template-columns: 1fr;
+        width: 285px;
+    }
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+    .main-container div:nth-child(1){
+        padding-left: 290px;
+    }
+    .main-container div:nth-child(2){
+        display: none;
+    }
+    .main-container div:nth-child(4){
+        display: none;
+    }
+    .main-container div:nth-child(5){
+        display: none;
+    }
+    .main-container div:nth-child(6){
+        display: none;
+    }
+    .postview-img{
+        padding-left: 0px;
+        width: 360px;
+        height:200px;
+    }
+    .sidenav-container div:nth-child(1){
+        display: none;
+    }
+    .sidenav-container div:nth-child(2){
+        display: none;
+    }
+    .sidenav-container div:nth-child(3){
+        display: none;
+    }
+    .sidenav-container div:nth-child(4){
+        display: none;
+    }
+    .postview-container-profile div:nth-child(3){
+        display: none;
+    }
+    .profileview-line{
+        display: none;
+    }
+    .side-container{
+        padding-left: 8px;
+    }
+    .pv-reactions-btn div:nth-child(2){
+        display: none;
+    }
+    .pv-reactions{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

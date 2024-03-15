@@ -1,0 +1,15 @@
+.home-content-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 16px;
+}
+@media (max-width: 767px) {
+    .home-content-container {
+        grid-template-columns: 1fr; /* Switch to a single column layout */
+    }
+}
+@media (min-width: 768px) {
+    .hide-profile {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.content-container{
+    /* border: 1px solid black; */
+    margin-top: 20px;  
+    padding-left: 20px;
+}
+@media screen and (max-width: 767px){
+    .content-container{
+        padding-left: 3px;
+    }
+}

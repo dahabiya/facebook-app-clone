@@ -1,0 +1,33 @@
+.rightside-container{
+    padding-top: 20px;
+}
+.right-ele{
+    margin-left: 25px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    height:40px;
+    width: 260px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(43, 39, 39);
+    padding-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 16px;
+}
+.right-ele:hover{
+    background-color: rgb(243, 241, 241);
+}
+.right-add-icon{
+    width:28px;
+    height:28px;
+    border-radius: 50%;
+    border:1px solid rgb(224, 223, 223);
+    background-color: rgb(224, 223, 223);
+}
+.right-val{
+    padding-top: 6px;
+    padding-left: 10px;
+    /* color:rgb(109, 109, 109); */
+}

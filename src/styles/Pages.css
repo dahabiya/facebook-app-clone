@@ -1,0 +1,174 @@
+.Pages-container{
+    height:568px; 
+}
+.Pages-container-maindiv{
+    display: grid;
+    grid-template-columns: 32% 68%;
+}
+.Pages-container-div1{
+    display:flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 20px;
+    padding-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.Pages-container-div1-input{
+    width:350px;
+    border: 1px solid rgb(95, 95, 95);
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.createpage-head{
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.createpage-p{
+    font-size: 16px;
+    color: rgb(131, 131, 131);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.createpage-p2{
+    font-size: 12px;
+    color: rgb(106, 106, 106);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input1{
+    height:50px;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.input2{
+    height:50px;
+    border-radius: 6px;
+    padding-left: 20px;
+    width:370px;
+}
+.input3{
+    height:100px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.createpage-btn{
+    width:365px;
+    height:30px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+    color: white;
+    background-color: rgb(7, 92, 202);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .Pages-container-div2{
+    border: 1px solid black;
+} */
+.Photo-container-sub{
+    border: .5px solid rgb(213, 213, 213);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    overflow: auto;
+}
+.Photo{
+    background-color: rgb(240, 243, 246);
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+}
+.iicon{
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    border: 1px solid rgb(196, 195, 195);
+    position: absolute;
+    top: 190px;
+    right: 380px;
+}
+.page-name{
+    color: rgb(160, 160, 160);
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+.page-name-new{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+.bio{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.intro{
+    border: .5px solid rgb(154, 153, 153);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-left: 60px;
+    width:660px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.intro-cont{
+    display: flex;
+    margin-top: 10px;
+}
+.intro-cont-icn{
+    margin-right: 10px;
+}
+@media screen and (max-width: 767px){
+    .Pages-container-maindiv{
+        grid-template-columns: 1fr;
+    }
+    .Pages-container-div2{
+        display:none;
+    }
+    .Pages-container-div1-input{
+        width:300px;
+        border: 1px solid rgb(95, 95, 95);
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+    .input1{
+        height:30px;
+        padding-left: 10px;
+    }
+    .input2{
+        height:30px;
+        padding-left: 10px;
+        width:310px;
+    }
+    .input3{
+        height:60px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .createpage-btn{
+        width:314px;
+        height:28px;
+    }
+    .createpage-p{
+        width:300px;
+    }
+    .createpage-p2{
+        width:300px;
+    }
+}

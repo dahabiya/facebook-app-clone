@@ -1,0 +1,8 @@
+.search-result{
+    margin-left: 300px;
+}
+@media screen and (max-width: 767px){
+    .search-result{
+        margin-left: 6px;
+    }
+}

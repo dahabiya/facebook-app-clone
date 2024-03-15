@@ -1,0 +1,228 @@
+.navbar-container{
+    /* border-bottom: 1px solid grey; */
+    height:45px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 6px 0px;
+    display: grid;
+    grid-template-columns: 1fr 7fr 1.7fr 1.7fr 1.7fr .9fr 4fr 1fr 1fr 1fr 1fr;
+    padding: 4px 10px;
+    padding-right: 10px;
+}
+.navbar-container-items{
+   border: 1px solid grey;
+}
+
+.search{
+    margin-top: 2px;
+    width:210px;
+    height:32px;  
+    border-radius: 35px;
+    padding-left: 20px;
+    border-color: rgb(236, 235, 235);
+    background-color: rgb(236, 235, 235);
+    color: rgb(113, 113, 113);
+    padding-top: 10px;
+}
+.search-span{
+    border: none;
+    background-color: inherit;
+    height:20px;
+    width:160px;
+    padding-left: 6px;
+    padding-top: 2px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mid-ele{
+    padding-left:30px;
+    padding-top: 10px;
+    border-radius: 8%;
+    height: 36px;
+}
+.frnds-logo{
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+    color: grey;
+}
+.hovr:hover{
+  background-color: rgb(238, 235, 235);
+}
+
+.hide {
+    display: none;
+}
+      
+  .hovr:hover > .hide {
+    display: block;
+    color: white;
+    margin:16px -15px;
+    background-color:rgba(59, 59, 59);
+    width:60px;
+    height:26px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+  }
+
+
+.profile-hover{
+    position: relative;
+    display: inline-block
+}
+
+.hide-profile{
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    width:250px;
+    border:1px solid black;
+    background-color: white;
+    border: .6px solid rgb(214, 214, 214);
+    box-shadow: rgba(84, 85, 86, 0.2) 0px 6px 14px;
+    border-radius: 10px;
+    margin-top:-1px;
+}
+
+.profile-hover:hover  .hide-profile {
+    display: block;
+}
+
+.Profile-name{
+    font-size: 24px;
+    font-weight: 12px;
+    /* padding-left: 50px;
+    padding-top: 10px; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profile-line{
+    border-top: 1.4px solid rgba(114, 116, 118, 0.2);
+    width:220px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.logout-btn{
+  width:100px;
+  background-color:inherit;
+}
+.logout-container{
+    width:220px;
+    height:34px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background-color: inherit;
+    border: none;
+    padding-top: 8px;
+}
+.logout-container:hover{
+  background-color: rgb(234, 234, 234);
+}
+.profile-name-container{
+    width:220px;
+    height:35px;
+    grid-template-columns: 20% 80%;
+    display: grid;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    /* border:1px solid black; */
+}
+/* .profile-name-container:hover{
+    background-color: grey;
+} */
+.logout-btn{
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(77, 75, 75);
+}
+.nav-logo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid rgb(202, 201, 201);
+    background-color: rgb(215, 214, 214);
+}
+.nav-logo1{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    border:1px solid rgb(192, 190, 190);
+    background-color: rgb(208, 208, 208);
+}
+.fnd-frnds{
+    margin-top: 2px;
+    margin-left: 90px;
+    width:100px;
+    height:30px;  
+    border-radius: 35px;
+    border-color: rgb(215, 214, 214);
+    background-color:  rgb(215, 214, 214);
+    padding-top: 12px;
+    padding-left: 20px;
+    font-weight:6rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cant-select{
+    cursor:not-allowed;
+}
+
+
+@media screen and (max-width: 767px){
+
+    .navbar-container div:nth-child(4){
+        display: none;
+    }
+    .navbar-container div:nth-child(5){
+        display: none;
+    }
+    .navbar-container div:nth-child(7){
+        display: none;
+    }
+    .navbar-container div:nth-child(8){
+        display: none;
+    }
+    .navbar-container div:nth-child(9){
+        display: none;
+    }
+    .navbar-container div:nth-child(10){
+        display: none;
+    }
+    .search{
+        width:160px;
+    }
+    .search-span{
+        width:130px;
+    }
+    .navbar-container{
+        width:345px;
+        padding: 1px 8px;
+    }
+    .mid-ele{
+        padding-left: 6px;
+    }
+    .profile-name-container{
+        width:100px;
+        height:30px;
+    }
+    .logout-container{
+        width:90px;
+        height:28px;
+    }
+    .logout-container{
+        grid-template-columns: 30% 70%;
+    }
+    .profile-name-container{
+        grid-template-columns: 40% 70%;
+    }
+}
